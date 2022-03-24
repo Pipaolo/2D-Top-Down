@@ -1,0 +1,40 @@
+{
+    "name": "UIInput",
+    "maps": [
+        {
+            "name": "Menu Interaction",
+            "id": "d5403814-bf13-48e8-abc7-4b138a757b77",
+            "actions": [
+                {
+                    "name": "Toggle Selection Menu",
+                    "type": "Button",
+                    "id": "51f2d5fb-dd87-4264-a2c8-095f14eb78a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4f53f58b-89ed-4cff-9118-c350aa356704",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Toggle Selection Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": []
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/button-style.uss?fileID=7433441132597879392&amp;guid=1777473fde0a1dd40898be885ba5d590&amp;type=3#button-style" />
+    <ui:VisualElement name="InGameUI" style="position: absolute; flex-grow: 1; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); visibility: visible; flex-direction: row; justify-content: space-between;">
+        <ui:Label text="Enemies Killed: " display-tooltip-when-elided="true" name="DefeatedEnemiesText" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 24px; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px;" />
+        <ui:ListView focusable="true" name="AchievementsList" style="right: auto; height: 320px; width: 320px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ClassSelectionMenu" style="flex-grow: 1; background-color: rgb(0, 0, 0); display: flex; visibility: visible;">
+        <ui:Label text="Select Your Class" display-tooltip-when-elided="true" name="Title" style="-unity-font-style: bold; font-size: 24px; color: rgb(255, 255, 255); -unity-text-align: upper-center; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px;" />
+        <ui:VisualElement name="ClassList" style="flex-direction: row; flex-grow: initial; flex-basis: 100%; justify-content: center; align-items: center; width: auto; flex-wrap: nowrap; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px;">
+            <ui:Button text="Scout" display-tooltip-when-elided="true" name="ScoutBtn" class="button-style" style="flex-shrink: 1; flex-grow: 1; height: 120px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; font-size: 24px;" />
+            <ui:Button text="Scadoosh" display-tooltip-when-elided="true" name="ScadooshBtn" class="button-style" style="flex-grow: 1; height: 120px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; font-size: 24px;" />
+            <ui:Button text="Sniperist" display-tooltip-when-elided="true" name="SniperistBtn" class="button-style" style="flex-grow: 1; height: 120px; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; font-size: 24px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
